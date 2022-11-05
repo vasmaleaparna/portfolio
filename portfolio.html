@@ -1,0 +1,426 @@
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <style>
+
+         nav  {
+
+             top: 0;
+             left: 0;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             padding: 1.5rem , 3.5rem;
+             box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+         }
+         nav h1{
+             color: black;
+
+         }
+
+         nav a :hover{
+            color:blue
+
+
+         }
+
+         nav ul
+         {
+            list-style-type: none;
+            display: flex;
+            gap :1.9rem;
+         }
+         .hero
+         {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2.5rem;
+            max-width: 68rem;
+            margin: auto;
+         }
+         .hero img{
+            height:300px ;
+         }
+
+         .more-about
+         {
+            background-color: #fcfcfc;
+            padding: 1rem 6rem ;
+         }
+
+         .skills
+         {
+            max-width: 70rem;
+            margin: auto;
+            text-align: center;
+            margin-top: 2.5rem;
+         }
+
+         .skill-header
+         {
+            margin-bottom: 1 rem;             
+         }
+
+         .skill-wrapper img
+         {
+            padding: 1.25rem;
+         }
+         .icon
+         {
+           width: 12rem;
+           height: 12rem;
+         }
+         .icon-card
+         {
+          background-color: #fff;
+          border-radius: 11px;
+          box-shadow: 0px 3px 10px #a17a69;
+          padding: 20px;
+          margin: 10px;
+
+         }
+         #education
+         {
+            text-align: center;
+            
+         }
+         table
+         {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+            margin: 0 auto;
+         }
+
+         td, th{
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+
+        
+        }
+
+        .projects
+        {
+            background-color: #fcfcfc;
+            padding: 32px 0;
+            margin-top: 2rem;
+        }
+        .project-title
+        {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .projects-container
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .project-container
+        {
+            text-align: center;
+            width: 30rem;
+            height: 30rem;
+            padding: 10rem;
+        }
+
+        .project-container p 
+        {
+            padding: 0.5rem;
+        }
+
+
+        .project.pic 
+        {
+             width: 35%;
+        }
+
+        .project-card
+        {
+            background-color: #fff;
+            border-radius: 11px;
+            box-shadow: 0 3px 20px #8b8eaf;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .contact
+        {
+            margin-top: 2rem;
+        }
+        
+        .contact h2
+        {
+            text-align: center;
+            margin-bottom: 1rem ;
+        }
+
+        .contact-form-container
+        {
+            max-width: 41rem;
+            margin: 0 auto;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px #a17a69;
+        }
+
+        .contact-form-container label
+        {
+            line-height: 3rem;
+            font-weight: 700;
+            color: #4756df;
+        }
+
+        .contact-form .input-fields
+        {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom:10px;
+            border-radius: 5px;
+            border: 2px outset #4756df;
+        }
+
+        .contact-form-container textarea
+        {
+            min-height: 7rem;
+            font-size: 14px;
+        }
+
+        .submit-btn
+        {
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            color: #4756df;
+            border: 2px solid #4756df;
+        }
+        .submit-btn:hover
+        {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            
+        }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <nav>
+
+            <h1> Software Developer</h1>
+        
+
+        <ul>
+            <li><a href = "#" >Home</a></li>
+            <li><a href = "#">About Us</a></li>
+            <li><a href = "#">Contact Us</a></li>
+        </ul>
+        </nav>
+        <h1> About me </h1>
+        <section class="hero" id = "About">
+        
+        <img src="./Aparna Vasmale.jpg" alt="image not found"/>
+        <div class="bio">
+            <h2 class="bio-title">Career Objective</h2>
+            <p> To use my technical knowledge catering to the needs of the company by harnessing my keen interest in Software Programming, along with good interpersonal and analytical skills.
+
+            </p>
+
+        <a href="https://www.linkedin.com/in/aparna-vasmale-b73a451b3">Linkdin</a>
+        <a href="https://github.com/vasmaleaparna">Github</a>
+
+        </div>
+    </section>
+
+    <section class="more about">
+
+        <h2>More About Me</h2>
+        <p><pre>
+         I am Aparna Vasmale , Basically I am from Javala but currently staying in Pandharpur.
+         currently I am pursuing B.Tech degree in Computer Science and Engineering at SVERI'S College of Engineering ,Pandharpur.<br>
+         I have done 10th and 12th from L.S.V.D.Vidyalaya, Javala.<br>
+         I have keen interest in C, SQL, and also familiar with Python , 
+         as well as I have done a project on Machine Learning using python libraries.
+         and another is on Traffic - Sign - Recognition.</pre></p>
+
+        </p>
+        <!--Skills section starting-->
+
+        <section class="Skills">
+         <h2 class="Skill- header">My Top Skills</h2>
+         <div class="Skill-Wrapper">
+
+            <div class="First Set">
+
+            <img src="./HTML.png" alt = "HTML image not Found" class="icon icon-card"/>
+            <img src="./CSS img.png" alt = "CSS image not Found" class="icon icon-card"/>
+            <img src="./Bootstarp img.png" alt = "Bootstarp image not Found" class="icon icon-card"/>
+
+         </div>
+        </div>
+         <div class="Second Set">
+
+            
+            <img src="./C" alt = "PHP image not Found" class="icon icon-card"/>
+            <img src="./SQL" alt = "MySQL image not Found" class="icon icon-card"/>
+         </div>
+        </div>
+    </section>
+
+    <!-- Skills section end here--->
+
+    <!--Educational details starts here--->
+
+
+    <section id="Education">
+
+        <h3 class="edu-header"><b>Educational Deatails</b></h3>
+        <br>
+        <table class="table" border="1" style="margin-left:200px">
+            <thead>
+
+                <tr>
+
+                    <th>Education</th>
+                    <th>College / School</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <td>B.Tech</td>
+                <td>Sveri's College of Engineering, Pandharpur </td>
+                <td>2023</td>
+                <td>81.64 (Till 6th sem)</td>
+            </tbody>
+
+        <tbody>
+            <td>HSC</td>
+            <td>L.A.G Junior College Javala</td>
+            <td>2019</td>
+            <td>67.69</td>
+            <tbody>
+
+            </tbody>
+
+            
+            <tbody>
+                <td>SSC</td>
+                <td>L.S.V.D.Vidyalaya Javala</td>
+                <td>2017</td>
+                <td>83.40</td>
+    
+                </tbody>
+        </table>
+    </section>
+    
+    <!--Educational details ends here--->
+
+    <!--project section starts--->
+
+    <section class="projects" id="project">
+        <h2 class="project-title">Some of My Projects</h2>
+   <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="./Vector" project img not found " class="project-pic"/>
+        <h3 class="project-title">Traffic-Sign-Detection</h3>
+        <p class="project-details">Domain:Deep Learning<br>
+        Description : Developed a Traffic - Sign Recognition technology which can detect an traffic sign image from road with using CNN <br><br>
+        <a href="" class = "project-link ">project link</a></p> 
+
+
+      </div>
+
+      <div class="project-container project-card">
+        <img src="./cancer" alt="project img not found" class="project-pic"/>
+        <h3 class="project-title">Skin Disease Prediction</h3>
+        <p class="project-details">Domain : Machine Learning <br>
+            Description:This project we can used in hospital for diagnosis of patients and also used as inbuilt components in Hospital Management System.<br><br>
+        
+            <a href=""  class = "project link ">project link</a></p> 
+
+
+
+      </div>
+
+
+
+      <div class="project-container project-card">
+        <img src="./book" alt="project img not found" class="project-pic"/><br>
+        <h3 class="project-title">Book Management System</h3>
+        <p class="project-details"> This project provide  basic knowledge of python and tkinter library.
+            It is a GUI interface for the managing the book in the library or shop and also 
+            Provided facility of reset , search ,delete the data from the table. It also Improved efficiency and effectiveness in adminstration<br><br><a href=" https://github.com/vasmaleaparna/Book-Management-System.git"  class = "project link ">project link</a><br>
+        </p> 
+
+        
+
+      </div>
+
+   </div>
+    </section>
+
+    <!--Project section ends here-->
+
+    <!--contact us start here-->
+
+    <section class="contact" id="contact">
+
+        <h2>Get in touch with me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="">
+
+                </form>
+                <form action="">
+                    <div class="form-control">
+                        <label for="name">Name :</label>
+                        <input type="text" name="sender-name" placeholder="Enter your name"
+                        class= "input-field"
+                        required
+                        />
+                                   
+                    </div>
+
+                    <div class="form-control">
+                        <label for="name">Email:</label>
+                        <input type="text" name="sender-email" placeholder="Enter your Email"
+                        class= "input-field"
+                        required
+                        />
+                                   
+                    </div>
+
+                    
+                    <div class="form-control">
+                        <label for="Message">Message:</label>
+                        <textarea
+                         name="sender-message" 
+                        class= "input-field"
+                        cols="60"
+                        rows="10"
+                        required
+                        >
+                        </textarea>
+                                   
+                    </div>
+                    <input type="submit" id="submit-btn" class="submit-btn "/>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--contact us ends here-->
+    </body>
+</html>
